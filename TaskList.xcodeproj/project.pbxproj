@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		670AD101260806C300EA94EA /* StorageManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 670AD100260806C300EA94EA /* StorageManager.swift */; };
 		6760A3582604052C0039206C /* NewTaskViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6760A3572604052C0039206C /* NewTaskViewController.swift */; };
 		67778FE92602B39B001A78D7 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 67778FE82602B39B001A78D7 /* AppDelegate.swift */; };
 		67778FED2602B39B001A78D7 /* MainViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 67778FEC2602B39B001A78D7 /* MainViewController.swift */; };
@@ -16,6 +17,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		670AD100260806C300EA94EA /* StorageManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StorageManager.swift; sourceTree = "<group>"; };
 		6760A3572604052C0039206C /* NewTaskViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NewTaskViewController.swift; sourceTree = "<group>"; };
 		67778FE52602B39B001A78D7 /* TaskList.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TaskList.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		67778FE82602B39B001A78D7 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
@@ -37,6 +39,14 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		670AD0FF2608069D00EA94EA /* Services */ = {
+			isa = PBXGroup;
+			children = (
+				670AD100260806C300EA94EA /* StorageManager.swift */,
+			);
+			path = Services;
+			sourceTree = "<group>";
+		};
 		67778FDC2602B39A001A78D7 = {
 			isa = PBXGroup;
 			children = (
@@ -56,6 +66,7 @@
 		67778FE72602B39B001A78D7 /* TaskList */ = {
 			isa = PBXGroup;
 			children = (
+				670AD0FF2608069D00EA94EA /* Services */,
 				677790042602B6E9001A78D7 /* View Controllers */,
 				677790032602B6DC001A78D7 /* Supporting Files */,
 				677790052602B708001A78D7 /* Resources */,
@@ -170,6 +181,7 @@
 			files = (
 				67778FF32602B39B001A78D7 /* TaskList.xcdatamodeld in Sources */,
 				67778FED2602B39B001A78D7 /* MainViewController.swift in Sources */,
+				670AD101260806C300EA94EA /* StorageManager.swift in Sources */,
 				6760A3582604052C0039206C /* NewTaskViewController.swift in Sources */,
 				67778FE92602B39B001A78D7 /* AppDelegate.swift in Sources */,
 			);

@@ -8,7 +8,7 @@
 import UIKit
 
 class MainViewController: UITableViewController {
-
+    
     override func viewDidLoad() {
         super.viewDidLoad()
         view.backgroundColor = .white
@@ -46,5 +46,7 @@ class MainViewController: UITableViewController {
         let newTaskVC = NewTaskViewController()
         present(newTaskVC, animated: true)
     }
+    
+    
 }
 
