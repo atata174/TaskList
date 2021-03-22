@@ -92,7 +92,6 @@ class NewTaskViewController: UIViewController {
                 print(error.localizedDescription)
             }
         }
-        
         dismiss(animated: true)
     }
     
